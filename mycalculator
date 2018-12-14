@@ -1,0 +1,17 @@
+
+number_str1 = input("first_number:")
+number1 = int(number_str1)
+
+number_str2 = input("second_number:")
+number2 = int(number_str2)
+
+operation = input("operation[+,-,*,/]:")
+
+
+if operation == "+":
+    combination = (number1 + number2)
+else:
+    combination = (number1 - number2)
+
+combination_str= str(combination)
+print(combination)
